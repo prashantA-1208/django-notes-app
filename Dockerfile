@@ -4,7 +4,7 @@ WORKDIR /app/backend
 
 COPY requirements.txt /app/backend
 
-RUN pip install -r requirments.txt
+RUN pip install -r requirements.txt
 
 
 COPY . /app/backend
